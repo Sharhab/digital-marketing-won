@@ -5,21 +5,21 @@ import { Analytics } from "@vercel/analytics/react";
 
 const font = Space_Grotesk({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Globstand technologies | Design & Development Studio",
-  description:
-    "Grow your business with globstand technologies, a design & development studio.",
+// layout.tsx
+
+export const metadata = {
   openGraph: {
     images: [
       {
-        url: "https://www.birdagency.io/logo/logo.webp",
+        url: 'https://www.birdagency.io/logo/logo.webp', // Correct placement
         width: 1200,
         height: 630,
-        alt: "globstand",
-      },
-    ],
-  },
+        alt: 'globstand',
+      }
+    ]
+  }
 };
+
 
 export default function RootLayout({
   children,
