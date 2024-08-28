@@ -409,12 +409,12 @@ export default function Home() {
           </h1>
           <p className="text-left  text-xl  text-gray-500">519-200-5000</p>
           <p className="text-left  text-xl  text-gray-500">
-            admin@birdsoftware.ca
+            globstandtechnologies@gmail.com
           </p>
         </div>
 
         <div className="flex md:justify-center gap-x-4 mt-10">
-          © 2025 Bird. All Rights Reserved.
+          © 2025 Globstand technologies. All Rights Reserved.
           <Link href="/" className="text-blue-500">
             Privacy Policy
           </Link>
