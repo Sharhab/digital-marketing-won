@@ -115,9 +115,9 @@ export default function Home() {
         </div>
 
         <div className="flex items-center gap-x-4">
-          <a href="tel:519400200" className="hidden lg:flex">
+          <a href="tel:07065602624" className="hidden lg:flex">
             <button className="px-4 py-2 rounded-md flex items-center gap-x-3">
-              (519)-400-200
+              +234-706-560-2624
             </button>
           </a>
 
@@ -130,9 +130,9 @@ export default function Home() {
   hover:bg-[#abcbff]
   rounded-[6px]
   border-2
-  border-black
+  border-orange
   text-white
-  bg-[#121212]
+  bg-orange
   transition
   duration-200
      hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] "
@@ -193,7 +193,7 @@ export default function Home() {
    md:px-16
       md:text-xl
         border-4
-        border-black
+        border-orange
         rounded-[6px]
         hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)]"
             >
@@ -409,12 +409,14 @@ export default function Home() {
           </h1>
           <p className="text-left  text-xl  text-gray-500">519-200-5000</p>
           <p className="text-left  text-xl  text-gray-500">
-            globstandtechnologies@gmail.com
+            globstandtechnologies
+             @gmail.com
           </p>
         </div>
 
         <div className="flex md:justify-center gap-x-4 mt-10">
-          © 2025 Globstand technologies. All Rights Reserved.
+          © 2025 Globstand technologies. 
+             All Rights Reserved.
           <Link href="/" className="text-blue-500">
             Privacy Policy
           </Link>
