@@ -7,11 +7,13 @@ const font = Space_Grotesk({ subsets: ["latin"] });
 
 // layout.tsx
 
+// layout.tsx
+
 export const metadata = {
   openGraph: {
     images: [
       {
-        url: 'https://www.birdagency.io/logo/logo.webp', // Correct placement
+        url: 'https://www.birdagency.io/logo/logo.webp', // Correctly formatted as an object
         width: 1200,
         height: 630,
         alt: 'globstand',
@@ -19,6 +21,7 @@ export const metadata = {
     ]
   }
 };
+
 
 
 export default function RootLayout({
