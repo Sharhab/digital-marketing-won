@@ -1,7 +1,7 @@
 // components/MarketingSection.jsx
 export default function MarketingSection() {
   return (
-    <div className="bg-[#0a2e47] p-8 text-white">
+    <div className="bg-[#333] p-8 text-white">
       <div className="space-y-8">
         {/* Section 1 */}
         <div>
