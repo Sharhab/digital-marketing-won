@@ -157,11 +157,11 @@ export default function Home() {
             minutes
           </p>
 
-      <BoxReveal boxColor={"#333"} duration={0.5}>
-      <MarketingSection />
-    </BoxReveal>
-
-          <div
+       <div className="bg-[#333]">
+       <MarketingSection />
+       </div>
+    
+        <div
             className="
                  flex 
                   md:justify-center 
