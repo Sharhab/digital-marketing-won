@@ -76,8 +76,8 @@ export default function Home() {
           <Image
             src={"/logo/logo.webp"}
             alt="Logo"
-            width={-300}
-            height={-300}
+            width={300}
+            height={300}
             className="w-28"
           />
         </Link>
