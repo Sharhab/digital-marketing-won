@@ -20,10 +20,12 @@ export const Cover = ({
   const [beamPositions, setBeamPositions] = useState<number[]>([]);
 
   useEffect(() => {
-    if (ref.current) {
-      setContainerWidth(ref.current?.clientWidth ?? 0);
+    const containerRef = ref.current; // Store the ref value inside the effect
 
-      const height = ref.current?.clientHeight ?? 0;
+    if (containerRef) {
+      setContainerWidth(containerRef.clientWidth);
+
+      const height = containerRef.clientHeight;
       const numberOfBeams = Math.floor(height / 10); // Adjust the divisor to control the spacing
       const positions = Array.from(
         { length: numberOfBeams },
@@ -31,7 +33,7 @@ export const Cover = ({
       );
       setBeamPositions(positions);
     }
-  }, [ref.current]);
+  }, []); // Removed `ref.current` from dependency array
 
   return (
     <div
