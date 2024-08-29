@@ -157,7 +157,7 @@ export default function Home() {
             minutes
           </p>
 
-       <div className="bg-[#333]">
+       <div className= "py-5px pb-5px">
        <MarketingSection />
        </div>
     
