@@ -149,13 +149,43 @@ export default function Home() {
           <h1>
             <CoverDemo />
           </h1>
+          <div>
           <p
             className="md:text-center
            text-xl md:text-2xl my-6 md:my-10 md:w-4/5 mx-auto text-gray-500"
           >
-            Schedule a call with us to discuss your project and get a quote in
-            minutes
+            We're In The Business Of Helping 
+            You Grow Your Business
           </p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
+            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+              <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
+                <PiCheckBold className="text-xl text-blue-500" />
+                Design
+              </p>
+            </BoxReveal>
+            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+              <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
+                <PiCheckBold className="text-xl text-blue-500" />
+                Development
+              </p>
+            </BoxReveal>
+            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+              <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
+                <PiCheckBold className="text-xl text-blue-500" />
+                Marketing
+              </p>
+            </BoxReveal>
+            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+              <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
+                <PiCheckBold className="text-xl text-blue-500" />
+                Strategy
+              </p>
+            </BoxReveal>
+          </div>
+
+
+            </div>
 
        <div className= "py-5px pb-8px">
        <MarketingSection />
@@ -205,33 +235,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
-            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
-              <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-blue-500" />
-                Design
-              </p>
-            </BoxReveal>
-            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
-              <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-blue-500" />
-                Development
-              </p>
-            </BoxReveal>
-            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
-              <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-blue-500" />
-                Marketing
-              </p>
-            </BoxReveal>
-            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
-              <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-blue-500" />
-                Strategy
-              </p>
-            </BoxReveal>
-          </div>
-
+          
           <div className="md:flex items-center justify-between gap-y-4 my-10 gap-x-28 mx-auto">
             <div className="md:w-2/5">
               <h1 className="text-2xl font-medium text-gray-600 w-4/5">
