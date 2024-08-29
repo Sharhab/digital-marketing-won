@@ -66,30 +66,26 @@ export const StarsBackground: React.FC<StarBackgroundProps> = ({
   );
 
   useEffect(() => {
-    const updateStars = () => {
-      if (canvasRef.current) {
-        const canvas = canvasRef.current;
-        const ctx = canvas.getContext("2d");
-        if (!ctx) return;
+    const canvas = canvasRef.current; // Copy the ref value to a local variable
+    if (!canvas) return;
 
-        const { width, height } = canvas.getBoundingClientRect();
-        canvas.width = width;
-        canvas.height = height;
-        setStars(generateStars(width, height));
-      }
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+
+    const updateStars = () => {
+      const { width, height } = canvas.getBoundingClientRect();
+      canvas.width = width;
+      canvas.height = height;
+      setStars(generateStars(width, height));
     };
 
     updateStars();
 
     const resizeObserver = new ResizeObserver(updateStars);
-    if (canvasRef.current) {
-      resizeObserver.observe(canvasRef.current);
-    }
+    resizeObserver.observe(canvas);
 
     return () => {
-      if (canvasRef.current) {
-        resizeObserver.unobserve(canvasRef.current);
-      }
+      resizeObserver.unobserve(canvas);
     };
   }, [
     starDensity,
@@ -101,7 +97,7 @@ export const StarsBackground: React.FC<StarBackgroundProps> = ({
   ]);
 
   useEffect(() => {
-    const canvas = canvasRef.current;
+    const canvas = canvasRef.current; // Copy the ref value to a local variable
     if (!canvas) return;
 
     const ctx = canvas.getContext("2d");
