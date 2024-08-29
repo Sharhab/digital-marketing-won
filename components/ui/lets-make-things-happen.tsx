@@ -10,7 +10,7 @@ function LetsMakeThingsHappenSection() {
     bg-accent rounded-[45px] p-[50px] md:p-[60px] relative">
       <div className="md:pr-[22rem]">
         <p className="text-3xl font-medium">
-          Let&apos;s make things happen
+          Let make things happen
         </p>
 
         <p className="my-10 text-xl">
@@ -28,9 +28,9 @@ function LetsMakeThingsHappenSection() {
       hover:bg-[#abcbff] 
       rounded-[6px]
       border-2 
-      border-black 
+      border-[#d97706]
       dark:border-white 
-       bg-[#121212] 
+       bg-[#d97706] 
        text-white 
        transition 
        duration-200 
