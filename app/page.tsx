@@ -76,8 +76,8 @@ export default function Home() {
           <Image
             src={"/logo/logo.webp"}
             alt="Logo"
-            width={300}
-            height={300}
+            width={50}
+            height={50}
             className="w-28"
           />
         </Link>
@@ -296,7 +296,7 @@ export default function Home() {
                   src={service.icon}
                   width={10000}
                   height={10000}
-                  className="object-contain bg-gray-100 p-4 w-full h-40 rounded-md"
+                  className="object-contain bg-gray-100 p-4 w-full h-40 rounded-md text-[#ca8a04]"
                   alt="image"
                 />
                 <h1 className="text-xl font-medium text-[#d97706]">{service.title}</h1>
@@ -360,8 +360,8 @@ export default function Home() {
         <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
           <Image
             src={"/logo/logo.webp"}
-            width={-300}
-            height={-300}
+            width={50}
+            height={50}
             className=" md:w-1/3 rounded-md"
             alt="image"
           />
@@ -401,13 +401,13 @@ export default function Home() {
           <h1 className="text-3xl md:text-5xl font-medium ">
             <Image
               src={"/logo/logo.webp"}
-              width={10000}
-              height={10000}
+              width={50}
+              height={50}
               className="w-40"
               alt="image"
             />{" "}
           </h1>
-          <p className="text-left  text-xl  text-gray-500">519-200-5000</p>
+          <p className="text-left  text-xl  text-gray-500">+2347065602624</p>
           <p className="text-left  text-xl  text-gray-500">
             globstandtechnologies
              @gmail.com
