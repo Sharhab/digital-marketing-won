@@ -76,8 +76,8 @@ export default function Home() {
           <Image
             src={"/logo/logo.webp"}
             alt="Logo"
-            width={1000}
-            height={1000}
+            width={700}
+            height={700}
             className="w-28"
           />
         </Link>
@@ -130,9 +130,9 @@ export default function Home() {
   hover:bg-[#abcbff]
   rounded-[6px]
   border-2
-  border-[#f59e0b]
+  border-[#d97706]
   text-white
-  bg-[#f59e0b]
+  bg-[#d97706]
   transition
   duration-200
      hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] "
@@ -171,12 +171,12 @@ export default function Home() {
             px-10
             md:px-16
       md:text-xl
-      hover:bg-[#abcbff] 
+      hover:bg-[#d97706]
       rounded-[6px]
       border-2 
-      border-[#f59e0b]
+      border-[#d97706]
       dark:border-white 
-       bg-[#f59e0b]
+       bg-[#d97706]
        text-white 
        transition 
        duration-200 
@@ -193,7 +193,7 @@ export default function Home() {
    md:px-16
       md:text-xl
         border-4
-        border-orange
+        border-[#d97706]
         rounded-[6px]
         hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)]"
             >
@@ -299,7 +299,7 @@ export default function Home() {
                   className="object-contain bg-gray-100 p-4 w-full h-40 rounded-md"
                   alt="image"
                 />
-                <h1 className="text-xl font-medium">{service.title}</h1>
+                <h1 className="text-xl font-medium color-[#d97706]">{service.title}</h1>
                 <p className="text-gray-500">{service.description}</p>
               </div>
             ))}
