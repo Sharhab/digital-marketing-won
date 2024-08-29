@@ -5,7 +5,7 @@ export default function MarketingSection() {
       <div className="space-y-8">
         {/* Section 1 */}
         <div>
-          <h2 className="text-yellow-600 text-2xl font-bold flex items-center">
+          <h2 className="text-yellow-500 text-2xl font-bold flex items-center">
             <span className="mr-2">▶</span> DO YOU WANT MORE CUSTOMERS?
           </h2>
           <p className="text-base mt-2">
