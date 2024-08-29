@@ -362,7 +362,7 @@ export default function Home() {
             src={"/logo/logo.webp"}
             width={50}
             height={50}
-            className=" md:w-1/3 rounded-md"
+            className="w-14 h-14 md:w-1/3 rounded-md"
             alt="image"
           />
           <div className="flex flex-col gap-y-5 md:w-1/2">
@@ -403,7 +403,7 @@ export default function Home() {
               src={"/logo/logo.webp"}
               width={50}
               height={50}
-              className="w-40"
+              className="w-14 h-14"
               alt="image"
             />{" "}
           </h1>
