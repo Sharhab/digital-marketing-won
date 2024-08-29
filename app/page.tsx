@@ -148,13 +148,10 @@ export default function Home() {
             <CoverDemo />
           </h1>
           
-          <p
-            className="md:text-center
-           text-xl md:text-2xl my-6 md:my-10 md:w-4/5 mx-auto text-gray-500"
-          >
-            We're In The Business Of Helping 
-            You Grow Your Business
-          </p>
+          <p className="md:text-center text-xl md:text-2xl my-6 md:my-10 md:w-4/5 mx-auto text-gray-500">
+  We&#39;re In The Business Of Helping You Grow Your Business
+</p>
+
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
             <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
