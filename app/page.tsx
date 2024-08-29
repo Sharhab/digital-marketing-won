@@ -272,6 +272,12 @@ export default function Home() {
                   },
                 ]}
               />
+              
+<style jsx>{`
+  .logo {
+    @apply w-1/2; // Halve the width
+  }
+`}</style>
             </section>
           </div>
         </div>
