@@ -149,7 +149,7 @@ export default function Home() {
           <h1>
             <CoverDemo />
           </h1>
-          <div>
+          
           <p
             className="md:text-center
            text-xl md:text-2xl my-6 md:my-10 md:w-4/5 mx-auto text-gray-500"
@@ -183,9 +183,6 @@ export default function Home() {
               </p>
             </BoxReveal>
           </div>
-
-
-            </div>
 
        <div className= "py-5px pb-8px">
        <MarketingSection />
