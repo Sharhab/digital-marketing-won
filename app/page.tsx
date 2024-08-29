@@ -157,9 +157,9 @@ export default function Home() {
             minutes
           </p>
 
-          <div>
+      <BoxReveal boxColor={"#333"} duration={0.5}>
       <MarketingSection />
-    </div>
+    </BoxReveal>
 
           <div
             className="
