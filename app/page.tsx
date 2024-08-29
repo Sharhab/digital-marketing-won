@@ -16,7 +16,7 @@ import { Link as ScrollLink, Element } from "react-scroll";
 import { IconStarFilled } from "@tabler/icons-react";
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
-
+import MarketingSection from "../components/MarketingSection"
 
 const services = [
   {
@@ -156,6 +156,10 @@ export default function Home() {
             Schedule a call with us to discuss your project and get a quote in
             minutes
           </p>
+
+          <div>
+      <MarketingSection />
+    </div>
 
           <div
             className="
