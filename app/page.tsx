@@ -151,17 +151,14 @@ export default function Home() {
           <p className="md:text-center text-xl md:text-2xl my-6 md:my-10 md:w-4/5 mx-auto text-gray-500">
   We&#39;re In The Business Of Helping You Grow Your Business
 </p>
-
-
-
-          <iframe
-          className="w-full h-64 md:h-96"
-          src="https://youtu.be/o09NJjd6qyA?si=yfkZAnWJbdX6xXaW"
-          title="Introduction Video"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+<iframe
+  className="w-full h-64 md:h-96"
+  src="https://youtu.be/o09NJjd6qyA?si=qVGQBH9JTaesw96c"
+  title="Introduction Video"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
             <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
