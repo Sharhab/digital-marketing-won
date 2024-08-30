@@ -1,11 +1,11 @@
 // components/MarketingSection.jsx
 export default function MarketingSection() {
   return (
-    <div className="p-8 bg-black">
+    <div className="p-8 ">
       <div className="space-y-8">
         {/* Section 1 */}
         <div>
-          <h2 className="text-orange-600 text-2xl font-bold flex items-center">
+          <h2 className="text-[#d97706] text-2xl font-bold flex items-center">
             <span className="mr-2">▶</span> DO YOU WANT MORE CUSTOMERS?
           </h2>
           <p className="text-base mt-2 text-white">
