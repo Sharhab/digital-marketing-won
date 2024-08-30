@@ -2,7 +2,7 @@
 export default function MarketingSection() {
   return (
     <div className="p-8">
-      <div className="space-y-8 bg-[#064e3b]">
+      <div className="space-y-8">
         {/* Section 1 */}
         <div>
           <h2 className="text-[#d97706] text-2xl font-bold flex items-center">
