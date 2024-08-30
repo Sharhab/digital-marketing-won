@@ -153,11 +153,12 @@ export default function Home() {
 </p>
 <iframe
   className="w-full h-64 md:h-96"
-  src="https://youtu.be/eiuDz2tGpgw?si=n5EUvOiRSNVTtdQ8"
+  src="https://www.youtu.be/eiuDz2tGpgw?si=n5EUvOiRSNVTtdQ8"
   title="Introduction Video"
   frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowFullScreen
+  referrerPolicy="no-referrer"
 ></iframe>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
