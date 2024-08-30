@@ -1,14 +1,14 @@
 // components/MarketingSection.jsx
 export default function MarketingSection() {
   return (
-    <div className="bg-black p-8">
-      <div className="space-y-8">
+    <div className="p-10">
+      <div className="space-y-8 bg-black">
         {/* Section 1 */}
         <div>
           <h2 className="text-yellow-500 text-2xl font-bold flex items-center">
             <span className="mr-2">▶</span> DO YOU WANT MORE CUSTOMERS?
           </h2>
-          <p className="text-base mt-2">
+          <p className="text-base mt-2 text-white">
             With the support of our community, you will know the best strategies
             the most successful digital marketers are using to make a ton of
             money online.
