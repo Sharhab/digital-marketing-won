@@ -117,7 +117,7 @@ export default function Home() {
         <div className="flex items-center gap-x-4">
           <a href="tel:07065602624" className="hidden lg:flex">
             <button className="px-4 py-2 rounded-md flex items-center gap-x-3">
-              +234-706-560-2624
+              706-560-2624
             </button>
           </a>
 
@@ -208,7 +208,7 @@ export default function Home() {
               </div>
             </div>
 
-       <div className= "py-5px pb-8px">
+       <div className= "py-5px pb-8px  bg-[#064e3b]">
        <MarketingSection />
        </div>
     
