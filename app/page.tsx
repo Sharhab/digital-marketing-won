@@ -17,7 +17,7 @@ import { IconStarFilled } from "@tabler/icons-react";
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
 import MarketingSection from "../components/MarketingSection"
-
+import {useState} from "react"
 const services = [
   {
     icon: "/images/s_6.png",
@@ -57,7 +57,18 @@ const services = [
   },
 ];
 
+
+  
+
 export default function Home() {
+const [videoURL, setVideoURL] = useState('');
+  useEffect(() => {
+    // Retrieve video URL from local storage
+    const storedVideoURL = localStorage.getItem('videoURL');
+    if (storedVideoURL) {
+      setVideoURL(storedVideoURL);
+    }
+  }, []);
   return (
     <div
       className="overflow-clip 
@@ -151,15 +162,20 @@ export default function Home() {
           <p className="md:text-center text-xl md:text-2xl my-6 md:my-10 md:w-4/5 mx-auto text-gray-500">
   We&#39;re In The Business Of Helping You Grow Your Business
 </p>
-<iframe
-  className="w-full h-64 md:h-96"
-  src="https://www.youtu.be/eiuDz2tGpgw?si=n5EUvOiRSNVTtdQ8"
-  title="Introduction Video"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-  referrerPolicy="no-referrer"
-></iframe>
+          
+      {videoURL && (
+        <div className="video-container mt-8">
+          <iframe
+            width="560"
+            height="315"
+            src={videoURL}
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      )}
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
             <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
