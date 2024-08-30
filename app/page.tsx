@@ -208,7 +208,7 @@ export default function Home() {
               </div>
             </div>
 
-       <div className= "py-5px pb-8px  bg-[#064e3b]">
+       <div className= "py-5px pb-8px">
        <MarketingSection />
        </div>
     
