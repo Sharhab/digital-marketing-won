@@ -5,7 +5,7 @@ export default function MarketingSection() {
       <div className="space-y-8">
         {/* Section 1 */}
         <div>
-          <h2 className="text-[#d97706] text-2xl font-bold flex items-center">
+          <h2 className="text-[#d97706] text-2xl font-bold  mb-2 flex items-center">
             <span className="mr-2">▶</span> DO YOU WANT MORE CUSTOMERS?
           </h2>
           <p className="text-base mt-3 mb-3  text-black">
@@ -17,7 +17,7 @@ export default function MarketingSection() {
 
         {/* Section 2 */}
         <div>
-          <h2 className="text-[#d97706] text-2xl font-bold flex items-center">
+          <h2 className="text-[#d97706] text-2xl mb-2 font-bold flex items-center">
             <span className="mr-3">▶</span> DO YOU WANT TO KEEP YOUR CLIENTS LONGER?
           </h2>
           <p className="text-base mt-3 mb-3 text-black">
@@ -30,7 +30,7 @@ export default function MarketingSection() {
 
         {/* Section 3 */}
         <div>
-          <h2 className="text-[#d97706] text-2xl font-bold flex items-center">
+          <h2 className="text-[#d97706] mb-2 text-2xl font-bold flex items-center">
             <span className="mr-2">▶</span> DO YOU WANT TO SCALE YOUR BUSINESS?
           </h2>
           <p className="text-base mt-3 mb-3 text-black">
