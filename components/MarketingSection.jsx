@@ -20,7 +20,7 @@ export default function MarketingSection() {
           <h2 className="text-orange-600 text-2xl font-bold flex items-center">
             <span className="mr-2">▶</span> DO YOU WANT TO KEEP YOUR CLIENTS LONGER?
           </h2>
-          <p className="text-base mt-2 text-white">
+          <p className="text-base mt-2 text-white bg-black">
             With our all-in-one marketing and sales platform, you will be able
             to keep your tools in one place (while saving a fortune) and
             streamline your entire delivery process so you can focus on keeping
