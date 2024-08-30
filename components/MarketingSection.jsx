@@ -1,11 +1,11 @@
 // components/MarketingSection.jsx
 export default function MarketingSection() {
   return (
-    <div className="p-8 bg-[#333]">
+    <div className="p-8 bg-black">
       <div className="space-y-8">
         {/* Section 1 */}
         <div>
-          <h2 className="text-yellow text-2xl font-bold flex items-center">
+          <h2 className="text-orange-600 text-2xl font-bold flex items-center">
             <span className="mr-2">▶</span> DO YOU WANT MORE CUSTOMERS?
           </h2>
           <p className="text-base mt-2 text-white">
@@ -17,11 +17,10 @@ export default function MarketingSection() {
 
         {/* Section 2 */}
         <div>
-          <h2 className="text-yellow text-2xl font-bold flex items-center">
-            <span className="mr-2">▶</span> DO YOU WANT TO KEEP YOUR CLIENTS
-            LONGER?
+          <h2 className="text-orange-600 text-2xl font-bold flex items-center">
+            <span className="mr-2">▶</span> DO YOU WANT TO KEEP YOUR CLIENTS LONGER?
           </h2>
-          <p className="text-base mt-2 text-whit">
+          <p className="text-base mt-2 text-white">
             With our all-in-one marketing and sales platform, you will be able
             to keep your tools in one place (while saving a fortune) and
             streamline your entire delivery process so you can focus on keeping
@@ -31,7 +30,7 @@ export default function MarketingSection() {
 
         {/* Section 3 */}
         <div>
-          <h2 className="text-yellow  text-2xl font-bold flex items-center">
+          <h2 className="text-orange-600 text-2xl font-bold flex items-center">
             <span className="mr-2">▶</span> DO YOU WANT TO SCALE YOUR BUSINESS?
           </h2>
           <p className="text-base mt-2 text-white">
